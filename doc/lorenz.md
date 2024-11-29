@@ -21,7 +21,7 @@ which is known for its chaos and sensitivity to initial conditions.
 
 ```csound
 
-f1 0 4096 "lorenz" 0 30 1600 -1 0.001 2 1 0 0 0 0
+f1 0 4096 "lorenz" 0 30 1600 -1 5 0.001 2 1 0 0 0 0
 
 ```
     
@@ -32,12 +32,12 @@ f1 0 4096 "lorenz" 0 30 1600 -1 0.001 2 1 0 0 0 0
 * p8 = normalize; 0 == normalize, -1 == don't normalize
 * p9 = stepsize
 * p10 = x start value
-* p12 = y start value
-* p13 = z start value
-* [p14 = sigma; 0 == default -> 10] 
-* [p15 = rho; 0 == default -> 28 ] 
-* [p16 = beta; 0 == default -> 8./3.]  
-* [p17 = time delta; 0 == default -> 0.001 ] 
+* p11 = y start value
+* p12 = z start value
+* [p13 = sigma; 0 == default -> 10] 
+* [p14 = rho; 0 == default -> 28 ] 
+* [p15 = beta; 0 == default -> 8./3.]  
+* [p16 = time delta; 0 == default -> 0.001 ] 
 
 
 ## Output

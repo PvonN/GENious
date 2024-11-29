@@ -1,4 +1,4 @@
-# lorenz
+# Lorenz
 
 ## Abstract
 

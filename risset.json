@@ -1,6 +1,6 @@
 {
     "name": "GENious",
-    "version": "0.1.0"
+    "version": "0.1.0",
     "opcodes": [
 	"lorenz",
 	"thomas"
@@ -13,7 +13,7 @@
     "repository": "https://github.com/PvonN/GENious",
     "binaries": [
 	{
-	    "platform": "macos-x86_64"
+	    "platform": "macos-x86_64",
 	    "url": "https://github.com/PvonN/GENious/blob/main/releases/genious.zip",
 	    "extractpath": "genious.dylib",
 	    "csound_version": ">=6.17<7.0"

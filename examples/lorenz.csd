@@ -14,7 +14,7 @@ instr 1
   iMin = 80
   iMax = 16000
   iNorm = -1
-  iStepSize = 1
+  iStepSize = 100
   iX = 0.1
   iY = 0
   iZ = 0
@@ -22,7 +22,7 @@ instr 1
   iRho = 0 ; default
   iBeta = 0 ; default
   iTimeDelta = 0.001 ; default
-  iLorenzFreqs ftgen 0, 0, 16384, "lorenz", iAxis, iMin, iMax, iNorm, iStepSize, iX,\
+  iLorenzFreqs ftgen 0, 0, 512, "lorenz", iAxis, iMin, iMax, iNorm, iStepSize, iX,\
     iY, iZ, iSigma, iRho, iBeta, iTimeDelta
   
   aIndex line 0,p3,1  

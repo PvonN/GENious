@@ -1,3 +1,8 @@
+#ifndef GENIOUS_HELPER_H
+#define GENIOUS_HELPER_H
+
+#include "./genious.h"
+
 void scale_array(MYFLT *fp, MYFLT min_out, MYFLT max_out, int32_t size)
 {
   MYFLT min_in = fp[0];
@@ -17,3 +22,5 @@ void scale_array(MYFLT *fp, MYFLT min_out, MYFLT max_out, int32_t size)
       * (max_out - min_out);
   }
 }
+
+#endif 
